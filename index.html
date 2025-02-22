@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الاختبار</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #0f0;
+            text-align: center;
+            background: black;
+        }
+
+        /* فيديو كخلفية */
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .video-container video {
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+
+        /* مربع المحتوى */
+        .content-box {
+            position: relative;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin: 10% auto;
+            width: 60%;
+            border-radius: 10px;
+            border: 2px solid #0f0;
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        h1 {
+            color: #0f0;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- فيديو كخلفية -->
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="3144.mp4" type="video/mp4">
+            المتصفح لا يدعم تشغيل الفيديو
+        </video>
+    </div>
+
+    <!-- مربع المحتوى -->
+    <div class="content-box">
+        <h1>مرحباً بكم في الموقع</h1>
+        <p>معهد قوى الإنجاز العالي للتدريب</p>
+        <p>إشراف: م. خالد الزيداني</p>
+        <p>⚠️ هذا الموقع تعليمي فقط، وليس للاستخدام غير القانوني ⚠️</p>
+    </div>
+
+</body>
+</html>

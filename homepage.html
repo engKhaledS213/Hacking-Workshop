@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع التدريب - معهد قوى الإنجاز العالي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            width: 200px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .page-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .input-area {
+            margin-top: 20px;
+        }
+
+        .input-area input {
+            padding: 10px;
+            width: 100%;
+            font-size: 1.1em;
+        }
+
+        .input-area button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-area button:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+<video autoplay muted loop class="video-background">
+    <source src="your_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<div class="header">
+    <img src="logo.png" alt="معهد قوى الإنجاز العالي للتدريب">
+    <h1>موقع تدريب المتدربين</h1>
+    <p>تحت إشراف / خالد الزيداني</p>
+</div>
+
+<div class="container">
+    <h2 class="page-title">أهلاً بكم في موقع تدريب المتدربين</h2>
+    <p>موقع متخصص في تدريب المتدربين في مجالات الأمن السيبراني وتحليل الكود واكتشاف الثغرات.</p>
+    
+    <button class="button" onclick="window.location.href='page1.html'">التحليل الأول - الكود المصدر</button>
+    <button class="button" onclick="window.location.href='page2.html'">اكتشاف الثغرات في JavaScript</button>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 معهد قوى الإنجاز العالي للتدريب</p>
+</div>
+
+</body>
+</html>
